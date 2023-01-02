@@ -12,6 +12,8 @@ Through this lab, we will try to apply all the above concepts, in order to build
 
 **NOTE:** You may not find a great use of using redux, for this simple application, but for complex applications --> where the application is build with many components and these components share some states, in such cases redux becomes really powerful. But in order to understand and practice redux, we will go with a simple example.
 
+***use the following command in order to install redux: `npm install redux`***
+
 ### Problem Statement:
 
 We need to build a `Like functionality`. -> which means, you need to create two buttons, which can like and unlike.
