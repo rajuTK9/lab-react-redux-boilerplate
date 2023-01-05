@@ -11,7 +11,7 @@ function LikeCounter() {
   const unsubscribe = store.subscribe(() => {
     setCounter(store.getState().count);
   });
-
+  console.log(unsubscribe);
   return (
     <div>
       <h1>{count}</h1>
